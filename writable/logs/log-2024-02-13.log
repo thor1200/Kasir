@@ -1,0 +1,1909 @@
+CRITICAL - 2024-02-13 02:04:33 --> ErrorException: Undefined variable $page
+in APPPATH\Views\template.php on line 180.
+ 1 APPPATH\Views\template.php(180): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'D:\\kasir-komik\\app\\Views\\template.php', 180)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\kasir-komik\\app\\Views\\template.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('template')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+CRITICAL - 2024-02-13 02:07:29 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "template, $data.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template, $data.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template, $data', [], true)
+ 3 APPPATH\Controllers\Home.php(12): view('template, $data')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+CRITICAL - 2024-02-13 02:08:10 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "template, $data.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template, $data.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template, $data', [], true)
+ 3 APPPATH\Controllers\Home.php(12): view('template, $data')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+CRITICAL - 2024-02-13 02:08:12 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "template, $data.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template, $data.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template, $data', [], true)
+ 3 APPPATH\Controllers\Home.php(12): view('template, $data')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+CRITICAL - 2024-02-13 02:29:57 --> Error: Call to undefined method CodeIgniter\Router\RouteCollection::set4040Override()
+in APPPATH\Config\Routes.php on line 22.
+ 1 SYSTEMPATH\Router\RouteCollection.php(344): require()
+ 2 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+CRITICAL - 2024-02-13 02:30:18 --> CodeIgniter\Router\Exceptions\RouterException: The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App/Controllers\Home::index"
+in SYSTEMPATH\Router\Router.php on line 479.
+ 1 SYSTEMPATH\Router\Router.php(479): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App/Controllers\\Home::index')
+ 2 SYSTEMPATH\Router\Router.php(186): CodeIgniter\Router\Router->checkRoutes('/')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('/')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+CRITICAL - 2024-02-13 02:30:24 --> CodeIgniter\Router\Exceptions\RouterException: The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App/Controllers\Home::index"
+in SYSTEMPATH\Router\Router.php on line 479.
+ 1 SYSTEMPATH\Router\Router.php(479): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App/Controllers\\Home::index')
+ 2 SYSTEMPATH\Router\Router.php(186): CodeIgniter\Router\Router->checkRoutes('/')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('/')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+CRITICAL - 2024-02-13 02:30:34 --> CodeIgniter\Router\Exceptions\RouterException: The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App/Controllers\Home::index"
+in SYSTEMPATH\Router\Router.php on line 479.
+ 1 SYSTEMPATH\Router\Router.php(479): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App/Controllers\\Home::index')
+ 2 SYSTEMPATH\Router\Router.php(186): CodeIgniter\Router\Router->checkRoutes('/')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('/')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+CRITICAL - 2024-02-13 03:11:47 --> ErrorException: Undefined variable $menu
+in APPPATH\Views\template.php on line 92.
+ 1 APPPATH\Views\template.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menu', 'D:\\kasir-komik\\app\\Views\\template.php', 92)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\kasir-komik\\app\\Views\\template.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 5 APPPATH\Controllers\Produk.php(15): view('template', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+CRITICAL - 2024-02-13 04:25:19 --> Error: Class "app\Models\MKategori" not found
+in APPPATH\Controllers\Kategori.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Kategori->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+ERROR - 2024-02-13 04:26:18 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\kasir-komik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', '', '', 'db_kasir_riza', 3306, '', 0)
+#1 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\kasir-komik\app\Models\MKategori.php(11): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\kasir-komik\app\Controllers\Kategori.php(26): App\Models\MKategori->AllData()
+#6 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Kategori->index()
+#7 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#8 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\kasir-komik\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\kasir-komik\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\kasir-komik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\kasir-komik\app\Models\MKategori.php(11): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\kasir-komik\app\Controllers\Kategori.php(26): App\Models\MKategori->AllData()
+#5 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Kategori->index()
+#6 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#7 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\kasir-komik\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 D:\kasir-komik\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\...')
+#10 {main}
+CRITICAL - 2024-02-13 04:26:18 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_kategori`', [], false)
+ 3 APPPATH\Models\MKategori.php(11): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Kategori.php(26): App\Models\MKategori->AllData()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kategori->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+ERROR - 2024-02-13 04:30:08 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\kasir-komik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', '', '', 'db_kasir_riza', 3306, '', 0)
+#1 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\kasir-komik\app\Models\MKategori.php(11): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\kasir-komik\app\Controllers\Kategori.php(26): App\Models\MKategori->AllData()
+#6 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Kategori->index()
+#7 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#8 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\kasir-komik\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\kasir-komik\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\kasir-komik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\kasir-komik\app\Models\MKategori.php(11): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\kasir-komik\app\Controllers\Kategori.php(26): App\Models\MKategori->AllData()
+#5 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Kategori->index()
+#6 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#7 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\kasir-komik\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 D:\kasir-komik\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\...')
+#10 {main}
+CRITICAL - 2024-02-13 04:30:08 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_kategori`', [], false)
+ 3 APPPATH\Models\MKategori.php(11): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Kategori.php(26): App\Models\MKategori->AllData()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kategori->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+ERROR - 2024-02-13 04:30:10 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\kasir-komik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', '', '', 'db_kasir_riza', 3306, '', 0)
+#1 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\kasir-komik\app\Models\MKategori.php(11): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\kasir-komik\app\Controllers\Kategori.php(26): App\Models\MKategori->AllData()
+#6 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Kategori->index()
+#7 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#8 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\kasir-komik\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\kasir-komik\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\kasir-komik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\kasir-komik\app\Models\MKategori.php(11): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\kasir-komik\app\Controllers\Kategori.php(26): App\Models\MKategori->AllData()
+#5 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Kategori->index()
+#6 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#7 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\kasir-komik\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 D:\kasir-komik\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\...')
+#10 {main}
+CRITICAL - 2024-02-13 04:30:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_kategori`', [], false)
+ 3 APPPATH\Models\MKategori.php(11): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Kategori.php(26): App\Models\MKategori->AllData()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kategori->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+ERROR - 2024-02-13 04:30:11 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\kasir-komik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', '', '', 'db_kasir_riza', 3306, '', 0)
+#1 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\kasir-komik\app\Models\MKategori.php(11): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\kasir-komik\app\Controllers\Kategori.php(26): App\Models\MKategori->AllData()
+#6 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Kategori->index()
+#7 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#8 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\kasir-komik\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\kasir-komik\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\kasir-komik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\kasir-komik\app\Models\MKategori.php(11): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\kasir-komik\app\Controllers\Kategori.php(26): App\Models\MKategori->AllData()
+#5 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Kategori->index()
+#6 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#7 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\kasir-komik\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 D:\kasir-komik\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\...')
+#10 {main}
+CRITICAL - 2024-02-13 04:30:11 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_kategori`', [], false)
+ 3 APPPATH\Models\MKategori.php(11): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Kategori.php(26): App\Models\MKategori->AllData()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kategori->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+ERROR - 2024-02-13 04:30:11 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\kasir-komik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', '', '', 'db_kasir_riza', 3306, '', 0)
+#1 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\kasir-komik\app\Models\MKategori.php(11): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\kasir-komik\app\Controllers\Kategori.php(26): App\Models\MKategori->AllData()
+#6 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Kategori->index()
+#7 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#8 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\kasir-komik\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\kasir-komik\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\kasir-komik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\kasir-komik\app\Models\MKategori.php(11): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\kasir-komik\app\Controllers\Kategori.php(26): App\Models\MKategori->AllData()
+#5 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Kategori->index()
+#6 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#7 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\kasir-komik\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 D:\kasir-komik\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\...')
+#10 {main}
+CRITICAL - 2024-02-13 04:30:11 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_kategori`', [], false)
+ 3 APPPATH\Models\MKategori.php(11): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Kategori.php(26): App\Models\MKategori->AllData()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kategori->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+ERROR - 2024-02-13 04:32:46 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\kasir-komik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', '', '', 'db_kasir_riza', 3306, '', 0)
+#1 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\kasir-komik\app\Models\MKategori.php(11): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\kasir-komik\app\Controllers\Kategori.php(26): App\Models\MKategori->AllData()
+#6 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Kategori->index()
+#7 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#8 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\kasir-komik\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\kasir-komik\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\kasir-komik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\kasir-komik\app\Models\MKategori.php(11): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\kasir-komik\app\Controllers\Kategori.php(26): App\Models\MKategori->AllData()
+#5 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Kategori->index()
+#6 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#7 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\kasir-komik\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 D:\kasir-komik\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\...')
+#10 {main}
+CRITICAL - 2024-02-13 04:32:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_kategori`', [], false)
+ 3 APPPATH\Models\MKategori.php(11): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Kategori.php(26): App\Models\MKategori->AllData()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kategori->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+ERROR - 2024-02-13 04:34:37 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\kasir-komik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', '', '', 'db_kasir_riza', 3306, '', 0)
+#1 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\kasir-komik\app\Models\MKategori.php(11): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\kasir-komik\app\Controllers\Kategori.php(26): App\Models\MKategori->AllData()
+#6 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Kategori->index()
+#7 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#8 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\kasir-komik\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\kasir-komik\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\kasir-komik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\kasir-komik\app\Models\MKategori.php(11): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\kasir-komik\app\Controllers\Kategori.php(26): App\Models\MKategori->AllData()
+#5 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Kategori->index()
+#6 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#7 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\kasir-komik\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 D:\kasir-komik\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\...')
+#10 {main}
+CRITICAL - 2024-02-13 04:34:37 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_kategori`', [], false)
+ 3 APPPATH\Models\MKategori.php(11): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Kategori.php(26): App\Models\MKategori->AllData()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kategori->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+ERROR - 2024-02-13 05:22:28 --> mysqli_sql_exception: Unknown column 'nama_satuan' in 'field list' in D:\kasir-komik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\kasir-komik\app\Models\MKategori.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\kasir-komik\app\Controllers\Kategori.php(33): App\Models\MKategori->TambahData(Array)
+#6 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Kategori->TambahData()
+#7 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#8 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\kasir-komik\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\kasir-komik\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\...')
+#11 {main}
+CRITICAL - 2024-02-13 05:22:28 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'nama_satuan' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_kategori` (`nama_satuan`) VALUES (:nama_satuan:)', [...], false)
+ 2 APPPATH\Models\MKategori.php(16): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Kategori.php(33): App\Models\MKategori->TambahData([...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kategori->TambahData()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+CRITICAL - 2024-02-13 05:22:28 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'nama_satuan' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_kategori` (`nama_satuan`) VALUES (\'Komedi\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_kategori` (`nama_satuan`) VALUES (\'Komedi\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_kategori` (`nama_satuan`) VALUES (:nama_satuan:)', [...], false)
+ 4 APPPATH\Models\MKategori.php(16): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Kategori.php(33): App\Models\MKategori->TambahData([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kategori->TambahData()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+CRITICAL - 2024-02-13 05:22:28 --> [Caused by] mysqli_sql_exception: Unknown column 'nama_satuan' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tbl_kategori` (`nama_satuan`) VALUES (\'Komedi\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_kategori` (`nama_satuan`) VALUES (\'Komedi\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_kategori` (`nama_satuan`) VALUES (\'Komedi\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_kategori` (`nama_satuan`) VALUES (:nama_satuan:)', [...], false)
+ 5 APPPATH\Models\MKategori.php(16): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Kategori.php(33): App\Models\MKategori->TambahData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kategori->TambahData()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+ERROR - 2024-02-13 05:23:32 --> mysqli_sql_exception: Column 'nama_kategori' cannot be null in D:\kasir-komik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\kasir-komik\app\Models\MKategori.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\kasir-komik\app\Controllers\Kategori.php(33): App\Models\MKategori->TambahData(Array)
+#6 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Kategori->TambahData()
+#7 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#8 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\kasir-komik\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\kasir-komik\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\...')
+#11 {main}
+CRITICAL - 2024-02-13 05:23:32 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'nama_kategori' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_kategori` (`nama_kategori`) VALUES (:nama_kategori:)', [...], false)
+ 2 APPPATH\Models\MKategori.php(16): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Kategori.php(33): App\Models\MKategori->TambahData([...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kategori->TambahData()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+CRITICAL - 2024-02-13 05:23:32 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'nama_kategori' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_kategori` (`nama_kategori`) VALUES (NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_kategori` (`nama_kategori`) VALUES (NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_kategori` (`nama_kategori`) VALUES (:nama_kategori:)', [...], false)
+ 4 APPPATH\Models\MKategori.php(16): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Kategori.php(33): App\Models\MKategori->TambahData([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kategori->TambahData()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+CRITICAL - 2024-02-13 05:23:32 --> [Caused by] mysqli_sql_exception: Column 'nama_kategori' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tbl_kategori` (`nama_kategori`) VALUES (NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_kategori` (`nama_kategori`) VALUES (NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_kategori` (`nama_kategori`) VALUES (NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_kategori` (`nama_kategori`) VALUES (:nama_kategori:)', [...], false)
+ 5 APPPATH\Models\MKategori.php(16): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Kategori.php(33): App\Models\MKategori->TambahData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kategori->TambahData()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+ERROR - 2024-02-13 05:24:18 --> mysqli_sql_exception: Column 'nama_kategori' cannot be null in D:\kasir-komik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\kasir-komik\app\Models\MKategori.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\kasir-komik\app\Controllers\Kategori.php(33): App\Models\MKategori->TambahData(Array)
+#6 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Kategori->TambahData()
+#7 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#8 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\kasir-komik\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\kasir-komik\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\...')
+#11 {main}
+CRITICAL - 2024-02-13 05:24:18 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'nama_kategori' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_kategori` (`nama_kategori`) VALUES (:nama_kategori:)', [...], false)
+ 2 APPPATH\Models\MKategori.php(16): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Kategori.php(33): App\Models\MKategori->TambahData([...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kategori->TambahData()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+CRITICAL - 2024-02-13 05:24:18 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'nama_kategori' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_kategori` (`nama_kategori`) VALUES (NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_kategori` (`nama_kategori`) VALUES (NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_kategori` (`nama_kategori`) VALUES (:nama_kategori:)', [...], false)
+ 4 APPPATH\Models\MKategori.php(16): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Kategori.php(33): App\Models\MKategori->TambahData([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kategori->TambahData()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+CRITICAL - 2024-02-13 05:24:18 --> [Caused by] mysqli_sql_exception: Column 'nama_kategori' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tbl_kategori` (`nama_kategori`) VALUES (NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_kategori` (`nama_kategori`) VALUES (NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_kategori` (`nama_kategori`) VALUES (NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_kategori` (`nama_kategori`) VALUES (:nama_kategori:)', [...], false)
+ 5 APPPATH\Models\MKategori.php(16): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Kategori.php(33): App\Models\MKategori->TambahData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kategori->TambahData()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+ERROR - 2024-02-13 05:24:55 --> mysqli_sql_exception: Column 'nama_kategori' cannot be null in D:\kasir-komik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\kasir-komik\app\Models\MKategori.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\kasir-komik\app\Controllers\Kategori.php(33): App\Models\MKategori->TambahData(Array)
+#6 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Kategori->TambahData()
+#7 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#8 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\kasir-komik\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\kasir-komik\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\...')
+#11 {main}
+CRITICAL - 2024-02-13 05:24:55 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'nama_kategori' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_kategori` (`nama_kategori`) VALUES (:nama_kategori:)', [...], false)
+ 2 APPPATH\Models\MKategori.php(16): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Kategori.php(33): App\Models\MKategori->TambahData([...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kategori->TambahData()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+CRITICAL - 2024-02-13 05:24:55 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'nama_kategori' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_kategori` (`nama_kategori`) VALUES (NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_kategori` (`nama_kategori`) VALUES (NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_kategori` (`nama_kategori`) VALUES (:nama_kategori:)', [...], false)
+ 4 APPPATH\Models\MKategori.php(16): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Kategori.php(33): App\Models\MKategori->TambahData([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kategori->TambahData()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+CRITICAL - 2024-02-13 05:24:55 --> [Caused by] mysqli_sql_exception: Column 'nama_kategori' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tbl_kategori` (`nama_kategori`) VALUES (NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_kategori` (`nama_kategori`) VALUES (NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_kategori` (`nama_kategori`) VALUES (NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_kategori` (`nama_kategori`) VALUES (:nama_kategori:)', [...], false)
+ 5 APPPATH\Models\MKategori.php(16): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Kategori.php(33): App\Models\MKategori->TambahData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kategori->TambahData()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+ERROR - 2024-02-13 05:26:57 --> mysqli_sql_exception: Column 'nama_kategori' cannot be null in D:\kasir-komik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\kasir-komik\app\Models\MKategori.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\kasir-komik\app\Controllers\Kategori.php(33): App\Models\MKategori->TambahData(Array)
+#6 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Kategori->TambahData()
+#7 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#8 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\kasir-komik\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\kasir-komik\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\...')
+#11 {main}
+CRITICAL - 2024-02-13 05:26:57 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'nama_kategori' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_kategori` (`nama_kategori`) VALUES (:nama_kategori:)', [...], false)
+ 2 APPPATH\Models\MKategori.php(16): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Kategori.php(33): App\Models\MKategori->TambahData([...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kategori->TambahData()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+CRITICAL - 2024-02-13 05:26:57 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'nama_kategori' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_kategori` (`nama_kategori`) VALUES (NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_kategori` (`nama_kategori`) VALUES (NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_kategori` (`nama_kategori`) VALUES (:nama_kategori:)', [...], false)
+ 4 APPPATH\Models\MKategori.php(16): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Kategori.php(33): App\Models\MKategori->TambahData([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kategori->TambahData()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+CRITICAL - 2024-02-13 05:26:57 --> [Caused by] mysqli_sql_exception: Column 'nama_kategori' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tbl_kategori` (`nama_kategori`) VALUES (NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_kategori` (`nama_kategori`) VALUES (NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_kategori` (`nama_kategori`) VALUES (NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_kategori` (`nama_kategori`) VALUES (:nama_kategori:)', [...], false)
+ 5 APPPATH\Models\MKategori.php(16): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Kategori.php(33): App\Models\MKategori->TambahData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kategori->TambahData()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+ERROR - 2024-02-13 05:29:12 --> mysqli_sql_exception: Column 'nama_kategori' cannot be null in D:\kasir-komik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\kasir-komik\app\Models\MKategori.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\kasir-komik\app\Controllers\Kategori.php(33): App\Models\MKategori->TambahData(Array)
+#6 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Kategori->TambahData()
+#7 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#8 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\kasir-komik\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\kasir-komik\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\...')
+#11 {main}
+CRITICAL - 2024-02-13 05:29:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'nama_kategori' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_kategori` (`nama_kategori`) VALUES (:nama_kategori:)', [...], false)
+ 2 APPPATH\Models\MKategori.php(16): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Kategori.php(33): App\Models\MKategori->TambahData([...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kategori->TambahData()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+CRITICAL - 2024-02-13 05:29:12 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'nama_kategori' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_kategori` (`nama_kategori`) VALUES (NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_kategori` (`nama_kategori`) VALUES (NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_kategori` (`nama_kategori`) VALUES (:nama_kategori:)', [...], false)
+ 4 APPPATH\Models\MKategori.php(16): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Kategori.php(33): App\Models\MKategori->TambahData([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kategori->TambahData()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+CRITICAL - 2024-02-13 05:29:12 --> [Caused by] mysqli_sql_exception: Column 'nama_kategori' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tbl_kategori` (`nama_kategori`) VALUES (NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_kategori` (`nama_kategori`) VALUES (NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_kategori` (`nama_kategori`) VALUES (NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_kategori` (`nama_kategori`) VALUES (:nama_kategori:)', [...], false)
+ 5 APPPATH\Models\MKategori.php(16): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Kategori.php(33): App\Models\MKategori->TambahData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kategori->TambahData()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+CRITICAL - 2024-02-13 05:36:55 --> ErrorException: Undefined variable $session
+in APPPATH\Views\kategori.php on line 14.
+ 1 APPPATH\Views\kategori.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'D:\\kasir-komik\\app\\Views\\kategori.php', 14)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\kasir-komik\\app\\Views\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('kategori', [], true)
+ 5 APPPATH\Views\template.php(181): view('kategori')
+ 6 SYSTEMPATH\View\View.php(228): include('D:\\kasir-komik\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Kategori.php(28): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kategori->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+CRITICAL - 2024-02-13 05:37:20 --> ErrorException: Undefined variable $session
+in APPPATH\Views\kategori.php on line 14.
+ 1 APPPATH\Views\kategori.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'D:\\kasir-komik\\app\\Views\\kategori.php', 14)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\kasir-komik\\app\\Views\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('kategori', [], true)
+ 5 APPPATH\Views\template.php(181): view('kategori')
+ 6 SYSTEMPATH\View\View.php(228): include('D:\\kasir-komik\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Kategori.php(28): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kategori->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+CRITICAL - 2024-02-13 05:37:22 --> ErrorException: Undefined variable $session
+in APPPATH\Views\kategori.php on line 14.
+ 1 APPPATH\Views\kategori.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'D:\\kasir-komik\\app\\Views\\kategori.php', 14)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\kasir-komik\\app\\Views\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('kategori', [], true)
+ 5 APPPATH\Views\template.php(181): view('kategori')
+ 6 SYSTEMPATH\View\View.php(228): include('D:\\kasir-komik\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Kategori.php(28): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kategori->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+CRITICAL - 2024-02-13 05:38:43 --> ErrorException: Undefined variable $session
+in APPPATH\Views\kategori.php on line 14.
+ 1 APPPATH\Views\kategori.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'D:\\kasir-komik\\app\\Views\\kategori.php', 14)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\kasir-komik\\app\\Views\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('kategori', [], true)
+ 5 APPPATH\Views\template.php(181): view('kategori')
+ 6 SYSTEMPATH\View\View.php(228): include('D:\\kasir-komik\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Kategori.php(28): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kategori->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+CRITICAL - 2024-02-13 05:38:45 --> ErrorException: Undefined variable $session
+in APPPATH\Views\kategori.php on line 14.
+ 1 APPPATH\Views\kategori.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'D:\\kasir-komik\\app\\Views\\kategori.php', 14)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\kasir-komik\\app\\Views\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('kategori', [], true)
+ 5 APPPATH\Views\template.php(181): view('kategori')
+ 6 SYSTEMPATH\View\View.php(228): include('D:\\kasir-komik\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Kategori.php(28): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kategori->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+CRITICAL - 2024-02-13 05:38:52 --> ErrorException: Undefined variable $session
+in APPPATH\Views\kategori.php on line 14.
+ 1 APPPATH\Views\kategori.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'D:\\kasir-komik\\app\\Views\\kategori.php', 14)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\kasir-komik\\app\\Views\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('kategori', [], true)
+ 5 APPPATH\Views\template.php(181): view('kategori')
+ 6 SYSTEMPATH\View\View.php(228): include('D:\\kasir-komik\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Kategori.php(28): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kategori->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+CRITICAL - 2024-02-13 05:40:56 --> ErrorException: Undefined variable $session
+in APPPATH\Views\kategori.php on line 14.
+ 1 APPPATH\Views\kategori.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'D:\\kasir-komik\\app\\Views\\kategori.php', 14)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\kasir-komik\\app\\Views\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('kategori', [], true)
+ 5 APPPATH\Views\template.php(181): view('kategori')
+ 6 SYSTEMPATH\View\View.php(228): include('D:\\kasir-komik\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Kategori.php(28): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kategori->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+INFO - 2024-02-13 05:41:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 05:41:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 05:42:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-13 05:42:00 --> Error: Call to undefined method CodeIgniter\Session\Session::getFlastData()
+in APPPATH\Views\kategori.php on line 16.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('kategori', [], true)
+ 4 APPPATH\Views\template.php(181): view('kategori')
+ 5 SYSTEMPATH\View\View.php(228): include('D:\\kasir-komik\\app\\Views\\template.php')
+ 6 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 8 APPPATH\Controllers\Kategori.php(28): view('template', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kategori->index()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+INFO - 2024-02-13 05:42:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 05:43:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 05:44:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 05:44:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-13 05:44:04 --> Error: Call to undefined method CodeIgniter\Session\Session::getFlastData()
+in APPPATH\Views\kategori.php on line 16.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('kategori', [], true)
+ 4 APPPATH\Views\template.php(181): view('kategori')
+ 5 SYSTEMPATH\View\View.php(228): include('D:\\kasir-komik\\app\\Views\\template.php')
+ 6 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 8 APPPATH\Controllers\Kategori.php(28): view('template', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kategori->index()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+INFO - 2024-02-13 05:44:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 05:45:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 05:46:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 05:46:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 05:46:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 05:47:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-13 05:47:11 --> Error: Call to undefined method CodeIgniter\Session\Session::getFlastData()
+in APPPATH\Views\kategori.php on line 16.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('kategori', [], true)
+ 4 APPPATH\Views\template.php(181): view('kategori')
+ 5 SYSTEMPATH\View\View.php(228): include('D:\\kasir-komik\\app\\Views\\template.php')
+ 6 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 8 APPPATH\Controllers\Kategori.php(28): view('template', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kategori->index()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+INFO - 2024-02-13 05:47:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 05:48:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 05:48:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 05:48:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-13 05:48:42 --> Error: Call to undefined method CodeIgniter\Session\Session::getFlastData()
+in APPPATH\Views\kategori.php on line 16.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('kategori', [], true)
+ 4 APPPATH\Views\template.php(181): view('kategori')
+ 5 SYSTEMPATH\View\View.php(228): include('D:\\kasir-komik\\app\\Views\\template.php')
+ 6 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 8 APPPATH\Controllers\Kategori.php(28): view('template', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kategori->index()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+INFO - 2024-02-13 05:50:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 05:51:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 05:51:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 05:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 05:54:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 05:54:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 05:55:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 05:55:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 05:59:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 05:59:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 06:07:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-13 06:17:28 --> ArgumentCountError: Too few arguments to function App\Controllers\Kategori::EditData(), 0 passed in D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php on line 941 and exactly 1 expected
+in APPPATH\Controllers\Kategori.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kategori->EditData()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+CRITICAL - 2024-02-13 06:20:13 --> ArgumentCountError: Too few arguments to function App\Controllers\Kategori::EditData(), 0 passed in D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php on line 941 and exactly 1 expected
+in APPPATH\Controllers\Kategori.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kategori->EditData()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+INFO - 2024-02-13 06:22:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 06:22:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 06:22:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 06:22:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 06:22:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 06:33:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 06:38:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 06:40:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 06:42:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 06:42:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 06:42:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 06:43:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 06:43:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 06:43:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 06:43:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 06:43:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 06:44:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 06:44:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 06:45:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 06:45:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 06:45:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 06:45:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 06:45:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 06:45:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 06:50:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 06:50:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 06:50:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 06:50:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 06:51:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 06:51:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 06:51:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 06:56:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-13 06:57:01 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':id_kategori' at line 1 in D:\kasir-komik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('DELETE from kat...', 0)
+#1 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE from kat...')
+#2 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE from kat...')
+#3 D:\kasir-komik\app\Models\MKategori.php(26): CodeIgniter\Database\BaseConnection->query('DELETE from kat...')
+#4 D:\kasir-komik\app\Controllers\Kategori.php(53): App\Models\MKategori->HapusData(Array)
+#5 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Kategori->HapusData('1')
+#6 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#7 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\kasir-komik\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 D:\kasir-komik\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\...')
+#10 {main}
+CRITICAL - 2024-02-13 06:57:01 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':id_kategori' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\MKategori.php(26): CodeIgniter\Database\BaseConnection->query('DELETE from kategori WHERE id_kategori=:id_kategori')
+ 2 APPPATH\Controllers\Kategori.php(53): App\Models\MKategori->HapusData([...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kategori->HapusData('1')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+CRITICAL - 2024-02-13 06:57:01 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':id_kategori' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE from kategori WHERE id_kategori=:id_kategori')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE from kategori WHERE id_kategori=:id_kategori')
+ 3 APPPATH\Models\MKategori.php(26): CodeIgniter\Database\BaseConnection->query('DELETE from kategori WHERE id_kategori=:id_kategori')
+ 4 APPPATH\Controllers\Kategori.php(53): App\Models\MKategori->HapusData([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kategori->HapusData('1')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+CRITICAL - 2024-02-13 06:57:01 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':id_kategori' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('DELETE from kategori WHERE id_kategori=:id_kategori', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE from kategori WHERE id_kategori=:id_kategori')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE from kategori WHERE id_kategori=:id_kategori')
+ 4 APPPATH\Models\MKategori.php(26): CodeIgniter\Database\BaseConnection->query('DELETE from kategori WHERE id_kategori=:id_kategori')
+ 5 APPPATH\Controllers\Kategori.php(53): App\Models\MKategori->HapusData([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kategori->HapusData('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+ERROR - 2024-02-13 06:57:36 --> mysqli_sql_exception: Table 'db_kasir_riza.kategori' doesn't exist in D:\kasir-komik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('DELETE from kat...', 0)
+#1 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE from kat...')
+#2 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE from kat...')
+#3 D:\kasir-komik\app\Models\MKategori.php(26): CodeIgniter\Database\BaseConnection->query('DELETE from kat...')
+#4 D:\kasir-komik\app\Controllers\Kategori.php(53): App\Models\MKategori->HapusData(Array)
+#5 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Kategori->HapusData('1')
+#6 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#7 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\kasir-komik\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 D:\kasir-komik\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\...')
+#10 {main}
+CRITICAL - 2024-02-13 06:57:36 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'db_kasir_riza.kategori' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\MKategori.php(26): CodeIgniter\Database\BaseConnection->query('DELETE from kategori WHERE id_kategori=id_kategori')
+ 2 APPPATH\Controllers\Kategori.php(53): App\Models\MKategori->HapusData([...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kategori->HapusData('1')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+CRITICAL - 2024-02-13 06:57:36 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'db_kasir_riza.kategori' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE from kategori WHERE id_kategori=id_kategori')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE from kategori WHERE id_kategori=id_kategori')
+ 3 APPPATH\Models\MKategori.php(26): CodeIgniter\Database\BaseConnection->query('DELETE from kategori WHERE id_kategori=id_kategori')
+ 4 APPPATH\Controllers\Kategori.php(53): App\Models\MKategori->HapusData([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kategori->HapusData('1')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+CRITICAL - 2024-02-13 06:57:36 --> [Caused by] mysqli_sql_exception: Table 'db_kasir_riza.kategori' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('DELETE from kategori WHERE id_kategori=id_kategori', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE from kategori WHERE id_kategori=id_kategori')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE from kategori WHERE id_kategori=id_kategori')
+ 4 APPPATH\Models\MKategori.php(26): CodeIgniter\Database\BaseConnection->query('DELETE from kategori WHERE id_kategori=id_kategori')
+ 5 APPPATH\Controllers\Kategori.php(53): App\Models\MKategori->HapusData([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kategori->HapusData('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+CRITICAL - 2024-02-13 06:58:11 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Connection::bind()
+in APPPATH\Models\MKategori.php on line 27.
+ 1 APPPATH\Controllers\Kategori.php(53): App\Models\MKategori->HapusData([...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kategori->HapusData('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+INFO - 2024-02-13 07:01:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:01:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:01:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:01:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:01:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:01:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:01:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:01:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:01:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:01:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:02:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:02:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:02:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:02:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:02:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:02:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:03:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:03:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:03:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:03:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:03:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:05:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-13 07:05:35 --> ErrorException: Undefined variable $kategori
+in APPPATH\Views\produk.php on line 32.
+ 1 APPPATH\Views\produk.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'D:\\kasir-komik\\app\\Views\\produk.php', 32)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\kasir-komik\\app\\Views\\produk.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('produk', [], true)
+ 5 APPPATH\Views\template.php(181): view('produk')
+ 6 SYSTEMPATH\View\View.php(228): include('D:\\kasir-komik\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Produk.php(21): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+INFO - 2024-02-13 07:05:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:08:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:08:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-13 07:08:55 --> ErrorException: Undefined variable $produk
+in APPPATH\Views\produk.php on line 38.
+ 1 APPPATH\Views\produk.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produk', 'D:\\kasir-komik\\app\\Views\\produk.php', 38)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\kasir-komik\\app\\Views\\produk.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('produk', [], true)
+ 5 APPPATH\Views\template.php(181): view('produk')
+ 6 SYSTEMPATH\View\View.php(228): include('D:\\kasir-komik\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Produk.php(21): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+INFO - 2024-02-13 07:10:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-13 07:10:00 --> ErrorException: Undefined variable $produk
+in APPPATH\Views\produk.php on line 38.
+ 1 APPPATH\Views\produk.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produk', 'D:\\kasir-komik\\app\\Views\\produk.php', 38)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\kasir-komik\\app\\Views\\produk.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('produk', [], true)
+ 5 APPPATH\Views\template.php(181): view('produk')
+ 6 SYSTEMPATH\View\View.php(228): include('D:\\kasir-komik\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Produk.php(21): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+INFO - 2024-02-13 07:10:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:10:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-13 07:10:09 --> ErrorException: Undefined variable $produk
+in APPPATH\Views\produk.php on line 38.
+ 1 APPPATH\Views\produk.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produk', 'D:\\kasir-komik\\app\\Views\\produk.php', 38)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\kasir-komik\\app\\Views\\produk.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('produk', [], true)
+ 5 APPPATH\Views\template.php(181): view('produk')
+ 6 SYSTEMPATH\View\View.php(228): include('D:\\kasir-komik\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Produk.php(21): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+INFO - 2024-02-13 07:11:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-13 07:11:01 --> ErrorException: Undefined variable $produk
+in APPPATH\Views\produk.php on line 38.
+ 1 APPPATH\Views\produk.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produk', 'D:\\kasir-komik\\app\\Views\\produk.php', 38)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\kasir-komik\\app\\Views\\produk.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('produk', [], true)
+ 5 APPPATH\Views\template.php(181): view('produk')
+ 6 SYSTEMPATH\View\View.php(228): include('D:\\kasir-komik\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Produk.php(21): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+CRITICAL - 2024-02-13 07:14:22 --> Error: Class "App\Controllers\MProduk" not found
+in APPPATH\Controllers\Produk.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Produk->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+INFO - 2024-02-13 07:15:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-13 07:15:05 --> ErrorException: Undefined variable $produk
+in APPPATH\Views\produk.php on line 38.
+ 1 APPPATH\Views\produk.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produk', 'D:\\kasir-komik\\app\\Views\\produk.php', 38)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\kasir-komik\\app\\Views\\produk.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('produk', [], true)
+ 5 APPPATH\Views\template.php(181): view('produk')
+ 6 SYSTEMPATH\View\View.php(228): include('D:\\kasir-komik\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Produk.php(27): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+INFO - 2024-02-13 07:16:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-13 07:16:20 --> ErrorException: Undefined variable $produk
+in APPPATH\Views\produk.php on line 38.
+ 1 APPPATH\Views\produk.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produk', 'D:\\kasir-komik\\app\\Views\\produk.php', 38)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\kasir-komik\\app\\Views\\produk.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('produk', [], true)
+ 5 APPPATH\Views\template.php(181): view('produk')
+ 6 SYSTEMPATH\View\View.php(228): include('D:\\kasir-komik\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Produk.php(27): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+INFO - 2024-02-13 07:17:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:18:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:18:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:18:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:18:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:29:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:30:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:30:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:30:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:30:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:32:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:34:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:35:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:37:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-13 07:37:29 --> ErrorException: Undefined array key "nama_kategori"
+in APPPATH\Views\produk.php on line 42.
+ 1 APPPATH\Views\produk.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_kategori"', 'D:\\kasir-komik\\app\\Views\\produk.php', 42)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\kasir-komik\\app\\Views\\produk.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('produk', [], true)
+ 5 APPPATH\Views\template.php(249): view('produk')
+ 6 SYSTEMPATH\View\View.php(228): include('D:\\kasir-komik\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Produk.php(29): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+INFO - 2024-02-13 07:37:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:45:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:51:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:56:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:57:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:58:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:58:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 08:00:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 08:01:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 08:03:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 08:03:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-13 08:03:44 --> ErrorException: Undefined array key "nama_kategori"
+in APPPATH\Views\produk.php on line 46.
+ 1 APPPATH\Views\produk.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_kategori"', 'D:\\kasir-komik\\app\\Views\\produk.php', 46)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\kasir-komik\\app\\Views\\produk.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('produk', [], true)
+ 5 APPPATH\Views\template.php(249): view('produk')
+ 6 SYSTEMPATH\View\View.php(228): include('D:\\kasir-komik\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Produk.php(29): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+INFO - 2024-02-13 08:04:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 08:07:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 08:11:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 08:13:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-13 08:13:39 --> ErrorException: Undefined array key "nama_kategori"
+in APPPATH\Views\produk.php on line 46.
+ 1 APPPATH\Views\produk.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_kategori"', 'D:\\kasir-komik\\app\\Views\\produk.php', 46)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\kasir-komik\\app\\Views\\produk.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('produk', [], true)
+ 5 APPPATH\Views\template.php(249): view('produk')
+ 6 SYSTEMPATH\View\View.php(228): include('D:\\kasir-komik\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Produk.php(33): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+INFO - 2024-02-13 08:13:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-13 12:38:46 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\kasir-komik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'db_kasir_riza', 3306, '', 0)
+#1 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\kasir-komik\app\Models\MProduk.php(11): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\kasir-komik\app\Controllers\Produk.php(30): App\Models\MProduk->AllData()
+#6 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Produk->index()
+#7 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#8 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\kasir-komik\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\kasir-komik\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\kasir-komik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\kasir-komik\app\Models\MProduk.php(11): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\kasir-komik\app\Controllers\Produk.php(30): App\Models\MProduk->AllData()
+#5 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Produk->index()
+#6 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\kasir-komik\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 D:\kasir-komik\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\...')
+#10 {main}
+CRITICAL - 2024-02-13 12:38:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_produk`', [], false)
+ 3 APPPATH\Models\MProduk.php(11): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Produk.php(30): App\Models\MProduk->AllData()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+ERROR - 2024-02-13 12:38:50 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\kasir-komik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'db_kasir_riza', 3306, '', 0)
+#1 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\kasir-komik\app\Models\MProduk.php(11): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\kasir-komik\app\Controllers\Produk.php(30): App\Models\MProduk->AllData()
+#6 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Produk->index()
+#7 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#8 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\kasir-komik\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\kasir-komik\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\kasir-komik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\kasir-komik\app\Models\MProduk.php(11): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\kasir-komik\app\Controllers\Produk.php(30): App\Models\MProduk->AllData()
+#5 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Produk->index()
+#6 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\kasir-komik\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 D:\kasir-komik\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\...')
+#10 {main}
+CRITICAL - 2024-02-13 12:38:50 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_produk`', [], false)
+ 3 APPPATH\Models\MProduk.php(11): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Produk.php(30): App\Models\MProduk->AllData()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+ERROR - 2024-02-13 12:38:54 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\kasir-komik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'db_kasir_riza', 3306, '', 0)
+#1 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\kasir-komik\app\Models\MKategori.php(11): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\kasir-komik\app\Controllers\Kategori.php(27): App\Models\MKategori->AllData()
+#6 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Kategori->index()
+#7 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#8 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\kasir-komik\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\kasir-komik\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\kasir-komik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\kasir-komik\app\Models\MKategori.php(11): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\kasir-komik\app\Controllers\Kategori.php(27): App\Models\MKategori->AllData()
+#5 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Kategori->index()
+#6 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#7 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\kasir-komik\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 D:\kasir-komik\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\...')
+#10 {main}
+CRITICAL - 2024-02-13 12:38:54 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_kategori`', [], false)
+ 3 APPPATH\Models\MKategori.php(11): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Kategori.php(27): App\Models\MKategori->AllData()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kategori->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+INFO - 2024-02-13 12:39:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:39:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 13:08:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 13:08:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-13 13:08:26 --> ErrorException: Undefined array key "nama_user"
+in APPPATH\Views\user.php on line 38.
+ 1 APPPATH\Views\user.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_user"', 'D:\\kasir-komik\\app\\Views\\user.php', 38)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\kasir-komik\\app\\Views\\user.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('user', [], true)
+ 5 APPPATH\Views\template.php(249): view('user')
+ 6 SYSTEMPATH\View\View.php(228): include('D:\\kasir-komik\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\User.php(28): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\User->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+INFO - 2024-02-13 13:08:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 13:21:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 13:21:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 13:22:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 13:23:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 13:29:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 13:32:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 13:33:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 13:34:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 13:39:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 13:44:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 13:44:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 13:45:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 13:49:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 14:02:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 14:02:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 14:02:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 14:04:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 14:04:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 14:04:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 14:05:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 14:05:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 14:07:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 14:07:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 14:07:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 14:08:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 14:08:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 14:09:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-13 14:09:41 --> ErrorException: Undefined variable $kategori
+in APPPATH\Views\user.php on line 166.
+ 1 APPPATH\Views\user.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'D:\\kasir-komik\\app\\Views\\user.php', 166)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\kasir-komik\\app\\Views\\user.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('user', [], true)
+ 5 APPPATH\Views\template.php(249): view('user')
+ 6 SYSTEMPATH\View\View.php(228): include('D:\\kasir-komik\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\User.php(28): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\User->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+INFO - 2024-02-13 14:09:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 14:10:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 14:10:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 14:25:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 14:33:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 14:34:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 14:37:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 14:38:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 14:38:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 14:40:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 14:40:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 14:40:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 14:40:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 14:40:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 14:41:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 14:52:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 14:52:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 14:52:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 14:56:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 15:04:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 15:04:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 15:06:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 15:12:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 15:14:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 15:20:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 15:21:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 15:25:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 15:26:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 15:26:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 15:27:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 15:29:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 15:29:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 15:34:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-13 15:35:34 --> mysqli_sql_exception: Column 'kode_produk' cannot be null in D:\kasir-komik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\kasir-komik\app\Models\MProduk.php(19): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\kasir-komik\app\Controllers\Produk.php(47): App\Models\MProduk->TambahData(Array)
+#6 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Produk->TambahData()
+#7 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#8 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\kasir-komik\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\kasir-komik\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\...')
+#11 {main}
+CRITICAL - 2024-02-13 15:35:34 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'kode_produk' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_produk` (`kode_produk`, `nama_produk`, `harga_beli`, `harga_jual`, `satuan`, `id_kategori`, `stok`) VALUES (:kode_produk:, :nama_produk:, :harga_beli:, :harga_jual:, :satuan:, :id_kategori:, :stok:)', [...], false)
+ 2 APPPATH\Models\MProduk.php(19): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Produk.php(47): App\Models\MProduk->TambahData([...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->TambahData()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+CRITICAL - 2024-02-13 15:35:34 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'kode_produk' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_produk` (`kode_produk`, `nama_produk`, `harga_beli`, `harga_jual`, `satuan`, `id_kategori`, `stok`) VALUES (NULL, NULL, NULL, NULL, NULL, \'18\', NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_produk` (`kode_produk`, `nama_produk`, `harga_beli`, `harga_jual`, `satuan`, `id_kategori`, `stok`) VALUES (NULL, NULL, NULL, NULL, NULL, \'18\', NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_produk` (`kode_produk`, `nama_produk`, `harga_beli`, `harga_jual`, `satuan`, `id_kategori`, `stok`) VALUES (:kode_produk:, :nama_produk:, :harga_beli:, :harga_jual:, :satuan:, :id_kategori:, :stok:)', [...], false)
+ 4 APPPATH\Models\MProduk.php(19): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Produk.php(47): App\Models\MProduk->TambahData([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->TambahData()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+CRITICAL - 2024-02-13 15:35:34 --> [Caused by] mysqli_sql_exception: Column 'kode_produk' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tbl_produk` (`kode_produk`, `nama_produk`, `harga_beli`, `harga_jual`, `satuan`, `id_kategori`, `stok`) VALUES (NULL, NULL, NULL, NULL, NULL, \'18\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_produk` (`kode_produk`, `nama_produk`, `harga_beli`, `harga_jual`, `satuan`, `id_kategori`, `stok`) VALUES (NULL, NULL, NULL, NULL, NULL, \'18\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_produk` (`kode_produk`, `nama_produk`, `harga_beli`, `harga_jual`, `satuan`, `id_kategori`, `stok`) VALUES (NULL, NULL, NULL, NULL, NULL, \'18\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_produk` (`kode_produk`, `nama_produk`, `harga_beli`, `harga_jual`, `satuan`, `id_kategori`, `stok`) VALUES (:kode_produk:, :nama_produk:, :harga_beli:, :harga_jual:, :satuan:, :id_kategori:, :stok:)', [...], false)
+ 5 APPPATH\Models\MProduk.php(19): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Produk.php(47): App\Models\MProduk->TambahData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->TambahData()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+ERROR - 2024-02-13 15:38:35 --> mysqli_sql_exception: Column 'kode_produk' cannot be null in D:\kasir-komik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\kasir-komik\app\Models\MProduk.php(19): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\kasir-komik\app\Controllers\Produk.php(47): App\Models\MProduk->TambahData(Array)
+#6 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Produk->TambahData()
+#7 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#8 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\kasir-komik\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\kasir-komik\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\...')
+#11 {main}
+CRITICAL - 2024-02-13 15:38:35 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'kode_produk' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_produk` (`kode_produk`, `nama_produk`, `harga_beli`, `harga_jual`, `satuan`, `id_kategori`, `stok`) VALUES (:kode_produk:, :nama_produk:, :harga_beli:, :harga_jual:, :satuan:, :id_kategori:, :stok:)', [...], false)
+ 2 APPPATH\Models\MProduk.php(19): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Produk.php(47): App\Models\MProduk->TambahData([...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->TambahData()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+CRITICAL - 2024-02-13 15:38:35 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'kode_produk' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_produk` (`kode_produk`, `nama_produk`, `harga_beli`, `harga_jual`, `satuan`, `id_kategori`, `stok`) VALUES (NULL, NULL, NULL, NULL, NULL, \'18\', NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_produk` (`kode_produk`, `nama_produk`, `harga_beli`, `harga_jual`, `satuan`, `id_kategori`, `stok`) VALUES (NULL, NULL, NULL, NULL, NULL, \'18\', NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_produk` (`kode_produk`, `nama_produk`, `harga_beli`, `harga_jual`, `satuan`, `id_kategori`, `stok`) VALUES (:kode_produk:, :nama_produk:, :harga_beli:, :harga_jual:, :satuan:, :id_kategori:, :stok:)', [...], false)
+ 4 APPPATH\Models\MProduk.php(19): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Produk.php(47): App\Models\MProduk->TambahData([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->TambahData()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+CRITICAL - 2024-02-13 15:38:35 --> [Caused by] mysqli_sql_exception: Column 'kode_produk' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tbl_produk` (`kode_produk`, `nama_produk`, `harga_beli`, `harga_jual`, `satuan`, `id_kategori`, `stok`) VALUES (NULL, NULL, NULL, NULL, NULL, \'18\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_produk` (`kode_produk`, `nama_produk`, `harga_beli`, `harga_jual`, `satuan`, `id_kategori`, `stok`) VALUES (NULL, NULL, NULL, NULL, NULL, \'18\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_produk` (`kode_produk`, `nama_produk`, `harga_beli`, `harga_jual`, `satuan`, `id_kategori`, `stok`) VALUES (NULL, NULL, NULL, NULL, NULL, \'18\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_produk` (`kode_produk`, `nama_produk`, `harga_beli`, `harga_jual`, `satuan`, `id_kategori`, `stok`) VALUES (:kode_produk:, :nama_produk:, :harga_beli:, :harga_jual:, :satuan:, :id_kategori:, :stok:)', [...], false)
+ 5 APPPATH\Models\MProduk.php(19): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Produk.php(47): App\Models\MProduk->TambahData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->TambahData()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+INFO - 2024-02-13 15:38:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 15:38:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-13 15:39:15 --> mysqli_sql_exception: Column 'kode_produk' cannot be null in D:\kasir-komik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\kasir-komik\app\Models\MProduk.php(19): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\kasir-komik\app\Controllers\Produk.php(47): App\Models\MProduk->TambahData(Array)
+#6 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Produk->TambahData()
+#7 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#8 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\kasir-komik\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\kasir-komik\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\...')
+#11 {main}
+CRITICAL - 2024-02-13 15:39:16 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'kode_produk' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_produk` (`kode_produk`, `nama_produk`, `harga_beli`, `harga_jual`, `satuan`, `id_kategori`, `stok`) VALUES (:kode_produk:, :nama_produk:, :harga_beli:, :harga_jual:, :satuan:, :id_kategori:, :stok:)', [...], false)
+ 2 APPPATH\Models\MProduk.php(19): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Produk.php(47): App\Models\MProduk->TambahData([...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->TambahData()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+CRITICAL - 2024-02-13 15:39:16 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'kode_produk' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_produk` (`kode_produk`, `nama_produk`, `harga_beli`, `harga_jual`, `satuan`, `id_kategori`, `stok`) VALUES (NULL, NULL, NULL, NULL, NULL, \'18\', NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_produk` (`kode_produk`, `nama_produk`, `harga_beli`, `harga_jual`, `satuan`, `id_kategori`, `stok`) VALUES (NULL, NULL, NULL, NULL, NULL, \'18\', NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_produk` (`kode_produk`, `nama_produk`, `harga_beli`, `harga_jual`, `satuan`, `id_kategori`, `stok`) VALUES (:kode_produk:, :nama_produk:, :harga_beli:, :harga_jual:, :satuan:, :id_kategori:, :stok:)', [...], false)
+ 4 APPPATH\Models\MProduk.php(19): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Produk.php(47): App\Models\MProduk->TambahData([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->TambahData()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+CRITICAL - 2024-02-13 15:39:16 --> [Caused by] mysqli_sql_exception: Column 'kode_produk' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tbl_produk` (`kode_produk`, `nama_produk`, `harga_beli`, `harga_jual`, `satuan`, `id_kategori`, `stok`) VALUES (NULL, NULL, NULL, NULL, NULL, \'18\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_produk` (`kode_produk`, `nama_produk`, `harga_beli`, `harga_jual`, `satuan`, `id_kategori`, `stok`) VALUES (NULL, NULL, NULL, NULL, NULL, \'18\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_produk` (`kode_produk`, `nama_produk`, `harga_beli`, `harga_jual`, `satuan`, `id_kategori`, `stok`) VALUES (NULL, NULL, NULL, NULL, NULL, \'18\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_produk` (`kode_produk`, `nama_produk`, `harga_beli`, `harga_jual`, `satuan`, `id_kategori`, `stok`) VALUES (:kode_produk:, :nama_produk:, :harga_beli:, :harga_jual:, :satuan:, :id_kategori:, :stok:)', [...], false)
+ 5 APPPATH\Models\MProduk.php(19): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Produk.php(47): App\Models\MProduk->TambahData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->TambahData()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+INFO - 2024-02-13 15:44:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-13 15:44:32 --> mysqli_sql_exception: Column 'kode_produk' cannot be null in D:\kasir-komik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\kasir-komik\app\Models\MProduk.php(19): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\kasir-komik\app\Controllers\Produk.php(47): App\Models\MProduk->TambahData(Array)
+#6 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Produk->TambahData()
+#7 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#8 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\kasir-komik\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\kasir-komik\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\...')
+#11 {main}
+CRITICAL - 2024-02-13 15:44:32 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'kode_produk' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_produk` (`kode_produk`, `nama_produk`, `harga_beli`, `harga_jual`, `satuan`, `id_kategori`, `stok`) VALUES (:kode_produk:, :nama_produk:, :harga_beli:, :harga_jual:, :satuan:, :id_kategori:, :stok:)', [...], false)
+ 2 APPPATH\Models\MProduk.php(19): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Produk.php(47): App\Models\MProduk->TambahData([...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->TambahData()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+CRITICAL - 2024-02-13 15:44:32 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'kode_produk' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_produk` (`kode_produk`, `nama_produk`, `harga_beli`, `harga_jual`, `satuan`, `id_kategori`, `stok`) VALUES (NULL, NULL, NULL, NULL, NULL, \'18\', NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_produk` (`kode_produk`, `nama_produk`, `harga_beli`, `harga_jual`, `satuan`, `id_kategori`, `stok`) VALUES (NULL, NULL, NULL, NULL, NULL, \'18\', NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_produk` (`kode_produk`, `nama_produk`, `harga_beli`, `harga_jual`, `satuan`, `id_kategori`, `stok`) VALUES (:kode_produk:, :nama_produk:, :harga_beli:, :harga_jual:, :satuan:, :id_kategori:, :stok:)', [...], false)
+ 4 APPPATH\Models\MProduk.php(19): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Produk.php(47): App\Models\MProduk->TambahData([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->TambahData()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+CRITICAL - 2024-02-13 15:44:32 --> [Caused by] mysqli_sql_exception: Column 'kode_produk' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tbl_produk` (`kode_produk`, `nama_produk`, `harga_beli`, `harga_jual`, `satuan`, `id_kategori`, `stok`) VALUES (NULL, NULL, NULL, NULL, NULL, \'18\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_produk` (`kode_produk`, `nama_produk`, `harga_beli`, `harga_jual`, `satuan`, `id_kategori`, `stok`) VALUES (NULL, NULL, NULL, NULL, NULL, \'18\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_produk` (`kode_produk`, `nama_produk`, `harga_beli`, `harga_jual`, `satuan`, `id_kategori`, `stok`) VALUES (NULL, NULL, NULL, NULL, NULL, \'18\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_produk` (`kode_produk`, `nama_produk`, `harga_beli`, `harga_jual`, `satuan`, `id_kategori`, `stok`) VALUES (:kode_produk:, :nama_produk:, :harga_beli:, :harga_jual:, :satuan:, :id_kategori:, :stok:)', [...], false)
+ 5 APPPATH\Models\MProduk.php(19): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Produk.php(47): App\Models\MProduk->TambahData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->TambahData()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+INFO - 2024-02-13 15:44:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 15:45:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 15:45:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-13 15:46:29 --> mysqli_sql_exception: Column 'kode_produk' cannot be null in D:\kasir-komik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\kasir-komik\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\kasir-komik\app\Models\MProduk.php(19): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\kasir-komik\app\Controllers\Produk.php(47): App\Models\MProduk->TambahData(Array)
+#6 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Produk->TambahData()
+#7 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#8 D:\kasir-komik\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\kasir-komik\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\kasir-komik\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\...')
+#11 {main}
+CRITICAL - 2024-02-13 15:46:29 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'kode_produk' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_produk` (`kode_produk`, `nama_produk`, `harga_beli`, `harga_jual`, `satuan`, `id_kategori`, `stok`) VALUES (:kode_produk:, :nama_produk:, :harga_beli:, :harga_jual:, :satuan:, :id_kategori:, :stok:)', [...], false)
+ 2 APPPATH\Models\MProduk.php(19): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Produk.php(47): App\Models\MProduk->TambahData([...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->TambahData()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+CRITICAL - 2024-02-13 15:46:29 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'kode_produk' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_produk` (`kode_produk`, `nama_produk`, `harga_beli`, `harga_jual`, `satuan`, `id_kategori`, `stok`) VALUES (NULL, NULL, NULL, NULL, NULL, \'18\', NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_produk` (`kode_produk`, `nama_produk`, `harga_beli`, `harga_jual`, `satuan`, `id_kategori`, `stok`) VALUES (NULL, NULL, NULL, NULL, NULL, \'18\', NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_produk` (`kode_produk`, `nama_produk`, `harga_beli`, `harga_jual`, `satuan`, `id_kategori`, `stok`) VALUES (:kode_produk:, :nama_produk:, :harga_beli:, :harga_jual:, :satuan:, :id_kategori:, :stok:)', [...], false)
+ 4 APPPATH\Models\MProduk.php(19): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Produk.php(47): App\Models\MProduk->TambahData([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->TambahData()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+CRITICAL - 2024-02-13 15:46:29 --> [Caused by] mysqli_sql_exception: Column 'kode_produk' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tbl_produk` (`kode_produk`, `nama_produk`, `harga_beli`, `harga_jual`, `satuan`, `id_kategori`, `stok`) VALUES (NULL, NULL, NULL, NULL, NULL, \'18\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_produk` (`kode_produk`, `nama_produk`, `harga_beli`, `harga_jual`, `satuan`, `id_kategori`, `stok`) VALUES (NULL, NULL, NULL, NULL, NULL, \'18\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_produk` (`kode_produk`, `nama_produk`, `harga_beli`, `harga_jual`, `satuan`, `id_kategori`, `stok`) VALUES (NULL, NULL, NULL, NULL, NULL, \'18\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_produk` (`kode_produk`, `nama_produk`, `harga_beli`, `harga_jual`, `satuan`, `id_kategori`, `stok`) VALUES (:kode_produk:, :nama_produk:, :harga_beli:, :harga_jual:, :satuan:, :id_kategori:, :stok:)', [...], false)
+ 5 APPPATH\Models\MProduk.php(19): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Produk.php(47): App\Models\MProduk->TambahData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->TambahData()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+INFO - 2024-02-13 15:46:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 15:46:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 15:52:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 15:53:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 15:53:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 16:00:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 16:02:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 16:02:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 16:04:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 16:04:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 16:05:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 16:05:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 16:05:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 16:08:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 16:09:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 16:09:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 16:09:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 16:26:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-13 16:26:32 --> ErrorException: Undefined array key "id_user"
+in APPPATH\Views\produk.php on line 127.
+ 1 APPPATH\Views\produk.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_user"', 'D:\\kasir-komik\\app\\Views\\produk.php', 127)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\kasir-komik\\app\\Views\\produk.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('produk', [], true)
+ 5 APPPATH\Views\template.php(274): view('produk')
+ 6 SYSTEMPATH\View\View.php(228): include('D:\\kasir-komik\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Produk.php(33): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+INFO - 2024-02-13 16:27:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-13 16:27:04 --> ErrorException: Undefined array key "id_user"
+in APPPATH\Views\produk.php on line 136.
+ 1 APPPATH\Views\produk.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_user"', 'D:\\kasir-komik\\app\\Views\\produk.php', 136)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\kasir-komik\\app\\Views\\produk.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('produk', [], true)
+ 5 APPPATH\Views\template.php(274): view('produk')
+ 6 SYSTEMPATH\View\View.php(228): include('D:\\kasir-komik\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Produk.php(33): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+INFO - 2024-02-13 16:27:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 16:27:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 16:29:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-13 16:29:06 --> ErrorException: Undefined array key "stok"
+in APPPATH\Views\produk.php on line 179.
+ 1 APPPATH\Views\produk.php(179): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "stok"', 'D:\\kasir-komik\\app\\Views\\produk.php', 179)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\kasir-komik\\app\\Views\\produk.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('produk', [], true)
+ 5 APPPATH\Views\template.php(274): view('produk')
+ 6 SYSTEMPATH\View\View.php(228): include('D:\\kasir-komik\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Produk.php(33): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+INFO - 2024-02-13 16:44:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-13 16:44:34 --> ErrorException: Undefined array key "stok"
+in APPPATH\Views\produk.php on line 179.
+ 1 APPPATH\Views\produk.php(179): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "stok"', 'D:\\kasir-komik\\app\\Views\\produk.php', 179)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\kasir-komik\\app\\Views\\produk.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('produk', [], true)
+ 5 APPPATH\Views\template.php(274): view('produk')
+ 6 SYSTEMPATH\View\View.php(228): include('D:\\kasir-komik\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Produk.php(33): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+INFO - 2024-02-13 16:44:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-13 16:44:37 --> ErrorException: Undefined array key "stok"
+in APPPATH\Views\produk.php on line 179.
+ 1 APPPATH\Views\produk.php(179): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "stok"', 'D:\\kasir-komik\\app\\Views\\produk.php', 179)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\kasir-komik\\app\\Views\\produk.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('produk', [], true)
+ 5 APPPATH\Views\template.php(274): view('produk')
+ 6 SYSTEMPATH\View\View.php(228): include('D:\\kasir-komik\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Produk.php(33): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+INFO - 2024-02-13 16:44:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 16:44:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 16:44:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-13 16:44:44 --> ErrorException: Undefined array key "stok"
+in APPPATH\Views\produk.php on line 179.
+ 1 APPPATH\Views\produk.php(179): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "stok"', 'D:\\kasir-komik\\app\\Views\\produk.php', 179)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\kasir-komik\\app\\Views\\produk.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('produk', [], true)
+ 5 APPPATH\Views\template.php(274): view('produk')
+ 6 SYSTEMPATH\View\View.php(228): include('D:\\kasir-komik\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Produk.php(33): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+INFO - 2024-02-13 16:45:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-13 16:45:47 --> ErrorException: Undefined array key "stok"
+in APPPATH\Views\produk.php on line 179.
+ 1 APPPATH\Views\produk.php(179): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "stok"', 'D:\\kasir-komik\\app\\Views\\produk.php', 179)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\kasir-komik\\app\\Views\\produk.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('produk', [], true)
+ 5 APPPATH\Views\template.php(274): view('produk')
+ 6 SYSTEMPATH\View\View.php(228): include('D:\\kasir-komik\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Produk.php(33): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+INFO - 2024-02-13 16:45:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-13 16:45:50 --> ErrorException: Undefined array key "stok"
+in APPPATH\Views\produk.php on line 179.
+ 1 APPPATH\Views\produk.php(179): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "stok"', 'D:\\kasir-komik\\app\\Views\\produk.php', 179)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\kasir-komik\\app\\Views\\produk.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('produk', [], true)
+ 5 APPPATH\Views\template.php(274): view('produk')
+ 6 SYSTEMPATH\View\View.php(228): include('D:\\kasir-komik\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Produk.php(33): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+INFO - 2024-02-13 16:45:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 16:45:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 16:46:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-13 16:46:01 --> ErrorException: Undefined array key "stok"
+in APPPATH\Views\produk.php on line 179.
+ 1 APPPATH\Views\produk.php(179): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "stok"', 'D:\\kasir-komik\\app\\Views\\produk.php', 179)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\kasir-komik\\app\\Views\\produk.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('produk', [], true)
+ 5 APPPATH\Views\template.php(274): view('produk')
+ 6 SYSTEMPATH\View\View.php(228): include('D:\\kasir-komik\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Produk.php(33): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+INFO - 2024-02-13 16:46:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-13 16:46:26 --> ErrorException: Undefined property: App\Controllers\Produk::$MUser
+in APPPATH\Controllers\Produk.php on line 65.
+ 1 APPPATH\Controllers\Produk.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Produk::$MUser', 'D:\\kasir-komik\\app\\Controllers\\Produk.php', 65)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->EditData('2')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\kasir-komik\\public\\index.php')
+INFO - 2024-02-13 16:47:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 16:47:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 16:48:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
